@@ -1,0 +1,2186 @@
+[
+  {
+    "yil": 2020,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 1,
+    "toplam_tutar": "425.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 2,
+    "toplam_tutar": "2,029.99"
+  },
+  {
+    "yil": 2020,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 3,
+    "toplam_tutar": "700.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 4,
+    "toplam_tutar": "1,435.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 5,
+    "toplam_tutar": "800.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 5,
+    "toplam_tutar": "480.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 6,
+    "toplam_tutar": "1,835.25"
+  },
+  {
+    "yil": 2020,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 7,
+    "toplam_tutar": "1,030.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 8,
+    "toplam_tutar": "1,439.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 9,
+    "toplam_tutar": "1,250.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 10,
+    "toplam_tutar": "1,610.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 11,
+    "toplam_tutar": "1,390.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 12,
+    "toplam_tutar": "1,565.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 13,
+    "toplam_tutar": "1,565.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 16,
+    "toplam_tutar": "120.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 17,
+    "toplam_tutar": "200.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 18,
+    "toplam_tutar": "40.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 19,
+    "toplam_tutar": "160.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 20,
+    "toplam_tutar": "120.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 21,
+    "toplam_tutar": "865.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 22,
+    "toplam_tutar": "1,170.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 23,
+    "toplam_tutar": "1,125.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 24,
+    "toplam_tutar": "880.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 25,
+    "toplam_tutar": "930.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 26,
+    "toplam_tutar": "660.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 27,
+    "toplam_tutar": "185.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 27,
+    "toplam_tutar": "945.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 28,
+    "toplam_tutar": "780.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 29,
+    "toplam_tutar": "520.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 30,
+    "toplam_tutar": "875.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 31,
+    "toplam_tutar": "975.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 32,
+    "toplam_tutar": "1,120.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 33,
+    "toplam_tutar": "1,535.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 34,
+    "toplam_tutar": "1,215.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 35,
+    "toplam_tutar": "1,580.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 36,
+    "toplam_tutar": "2,035.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 37,
+    "toplam_tutar": "1,550.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 38,
+    "toplam_tutar": "1,465.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 39,
+    "toplam_tutar": "1,765.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 40,
+    "toplam_tutar": "985.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 40,
+    "toplam_tutar": "983.46"
+  },
+  {
+    "yil": 2020,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 41,
+    "toplam_tutar": "2,440.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 42,
+    "toplam_tutar": "1,165.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 43,
+    "toplam_tutar": "1,820.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 44,
+    "toplam_tutar": "2,595.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 45,
+    "toplam_tutar": "1,830.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 46,
+    "toplam_tutar": "1,540.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 47,
+    "toplam_tutar": "1,585.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 48,
+    "toplam_tutar": "1,325.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 49,
+    "toplam_tutar": "80.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 49,
+    "toplam_tutar": "2,030.00"
+  },
+  {
+    "yil": 2020,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 50,
+    "toplam_tutar": "405.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 3,
+    "toplam_tutar": "903.01"
+  },
+  {
+    "yil": 2021,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 4,
+    "toplam_tutar": "650.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 5,
+    "toplam_tutar": "430.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 6,
+    "toplam_tutar": "160.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 7,
+    "toplam_tutar": "285.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 8,
+    "toplam_tutar": "445.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 9,
+    "toplam_tutar": "775.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 10,
+    "toplam_tutar": "745.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 11,
+    "toplam_tutar": "411.04"
+  },
+  {
+    "yil": 2021,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 12,
+    "toplam_tutar": "675.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 13,
+    "toplam_tutar": "385.87"
+  },
+  {
+    "yil": 2021,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 13,
+    "toplam_tutar": "210.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 14,
+    "toplam_tutar": "655.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 15,
+    "toplam_tutar": "585.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 16,
+    "toplam_tutar": "1,040.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 17,
+    "toplam_tutar": "675.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 17,
+    "toplam_tutar": "265.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 18,
+    "toplam_tutar": "680.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 19,
+    "toplam_tutar": "1,400.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 20,
+    "toplam_tutar": "895.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 21,
+    "toplam_tutar": "1,015.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 22,
+    "toplam_tutar": "710.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 23,
+    "toplam_tutar": "930.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 24,
+    "toplam_tutar": "745.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 25,
+    "toplam_tutar": "1,003.03"
+  },
+  {
+    "yil": 2021,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 26,
+    "toplam_tutar": "1,020.82"
+  },
+  {
+    "yil": 2021,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 26,
+    "toplam_tutar": "240.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 27,
+    "toplam_tutar": "1,345.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 28,
+    "toplam_tutar": "1,080.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 29,
+    "toplam_tutar": "1,362.42"
+  },
+  {
+    "yil": 2021,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 30,
+    "toplam_tutar": "1,050.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 31,
+    "toplam_tutar": "660.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 32,
+    "toplam_tutar": "890.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 33,
+    "toplam_tutar": "1,170.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 34,
+    "toplam_tutar": "1,375.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 35,
+    "toplam_tutar": "410.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 35,
+    "toplam_tutar": "1,735.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 36,
+    "toplam_tutar": "1,475.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 37,
+    "toplam_tutar": "1,515.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 38,
+    "toplam_tutar": "2,231.66"
+  },
+  {
+    "yil": 2021,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 39,
+    "toplam_tutar": "845.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 39,
+    "toplam_tutar": "490.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 40,
+    "toplam_tutar": "2,370.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 41,
+    "toplam_tutar": "1,660.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 42,
+    "toplam_tutar": "1,245.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 43,
+    "toplam_tutar": "1,810.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 44,
+    "toplam_tutar": "2,171.24"
+  },
+  {
+    "yil": 2021,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 45,
+    "toplam_tutar": "1,280.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 46,
+    "toplam_tutar": "1,460.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 47,
+    "toplam_tutar": "1,780.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 48,
+    "toplam_tutar": "395.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 48,
+    "toplam_tutar": "940.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 49,
+    "toplam_tutar": "2,190.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 50,
+    "toplam_tutar": "1,180.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 51,
+    "toplam_tutar": "850.00"
+  },
+  {
+    "yil": 2021,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 52,
+    "toplam_tutar": "755.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 1,
+    "toplam_tutar": "870.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 2,
+    "toplam_tutar": "1,510.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 3,
+    "toplam_tutar": "1,560.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 4,
+    "toplam_tutar": "1,592.47"
+  },
+  {
+    "yil": 2022,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 5,
+    "toplam_tutar": "550.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 5,
+    "toplam_tutar": "1,345.88"
+  },
+  {
+    "yil": 2022,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 6,
+    "toplam_tutar": "1,315.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 7,
+    "toplam_tutar": "1,005.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 8,
+    "toplam_tutar": "1,355.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 9,
+    "toplam_tutar": "170.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 9,
+    "toplam_tutar": "815.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 10,
+    "toplam_tutar": "1,865.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 11,
+    "toplam_tutar": "1,540.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 12,
+    "toplam_tutar": "1,610.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 13,
+    "toplam_tutar": "975.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 13,
+    "toplam_tutar": "400.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 14,
+    "toplam_tutar": "1,500.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 15,
+    "toplam_tutar": "1,534.54"
+  },
+  {
+    "yil": 2022,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 16,
+    "toplam_tutar": "1,130.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 17,
+    "toplam_tutar": "1,435.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 18,
+    "toplam_tutar": "2,259.50"
+  },
+  {
+    "yil": 2022,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 19,
+    "toplam_tutar": "1,240.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 20,
+    "toplam_tutar": "1,770.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 21,
+    "toplam_tutar": "1,600.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 22,
+    "toplam_tutar": "580.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 22,
+    "toplam_tutar": "830.00"
+  },
+  {
+    "yil": 2022,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 23,
+    "toplam_tutar": "4,115.90"
+  },
+  {
+    "yil": 2022,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 24,
+    "toplam_tutar": "5,410.62"
+  },
+  {
+    "yil": 2022,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 25,
+    "toplam_tutar": "4,034.90"
+  },
+  {
+    "yil": 2022,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 26,
+    "toplam_tutar": "3,262.96"
+  },
+  {
+    "yil": 2022,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 26,
+    "toplam_tutar": "2,496.08"
+  },
+  {
+    "yil": 2022,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 27,
+    "toplam_tutar": "5,417.15"
+  },
+  {
+    "yil": 2022,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 28,
+    "toplam_tutar": "4,532.70"
+  },
+  {
+    "yil": 2022,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 29,
+    "toplam_tutar": "5,265.30"
+  },
+  {
+    "yil": 2022,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 30,
+    "toplam_tutar": "7,782.77"
+  },
+  {
+    "yil": 2022,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 31,
+    "toplam_tutar": "8,935.65"
+  },
+  {
+    "yil": 2022,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 32,
+    "toplam_tutar": "5,676.06"
+  },
+  {
+    "yil": 2022,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 33,
+    "toplam_tutar": "5,327.26"
+  },
+  {
+    "yil": 2022,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 34,
+    "toplam_tutar": "10,131.12"
+  },
+  {
+    "yil": 2022,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 35,
+    "toplam_tutar": "1,560.24"
+  },
+  {
+    "yil": 2022,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 35,
+    "toplam_tutar": "8,109.68"
+  },
+  {
+    "yil": 2022,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 36,
+    "toplam_tutar": "9,323.52"
+  },
+  {
+    "yil": 2022,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 37,
+    "toplam_tutar": "7,519.96"
+  },
+  {
+    "yil": 2022,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 38,
+    "toplam_tutar": "8,837.61"
+  },
+  {
+    "yil": 2022,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 39,
+    "toplam_tutar": "5,546.07"
+  },
+  {
+    "yil": 2022,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 39,
+    "toplam_tutar": "543.80"
+  },
+  {
+    "yil": 2022,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 40,
+    "toplam_tutar": "8,903.55"
+  },
+  {
+    "yil": 2022,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 41,
+    "toplam_tutar": "6,521.13"
+  },
+  {
+    "yil": 2022,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 42,
+    "toplam_tutar": "7,494.72"
+  },
+  {
+    "yil": 2022,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 43,
+    "toplam_tutar": "7,442.89"
+  },
+  {
+    "yil": 2022,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 44,
+    "toplam_tutar": "95.89"
+  },
+  {
+    "yil": 2022,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 44,
+    "toplam_tutar": "6,429.43"
+  },
+  {
+    "yil": 2022,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 45,
+    "toplam_tutar": "7,115.64"
+  },
+  {
+    "yil": 2022,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 46,
+    "toplam_tutar": "15,264.55"
+  },
+  {
+    "yil": 2022,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 47,
+    "toplam_tutar": "5,533.25"
+  },
+  {
+    "yil": 2022,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 48,
+    "toplam_tutar": "4,269.82"
+  },
+  {
+    "yil": 2022,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 48,
+    "toplam_tutar": "3,005.76"
+  },
+  {
+    "yil": 2022,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 49,
+    "toplam_tutar": "9,791.67"
+  },
+  {
+    "yil": 2022,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 50,
+    "toplam_tutar": "7,781.88"
+  },
+  {
+    "yil": 2022,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 51,
+    "toplam_tutar": "7,291.12"
+  },
+  {
+    "yil": 2022,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 52,
+    "toplam_tutar": "5,339.29"
+  },
+  {
+    "yil": 2023,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 1,
+    "toplam_tutar": "3,979.10"
+  },
+  {
+    "yil": 2023,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 2,
+    "toplam_tutar": "7,292.75"
+  },
+  {
+    "yil": 2023,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 3,
+    "toplam_tutar": "7,085.06"
+  },
+  {
+    "yil": 2023,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 4,
+    "toplam_tutar": "11,319.90"
+  },
+  {
+    "yil": 2023,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 5,
+    "toplam_tutar": "1,416.56"
+  },
+  {
+    "yil": 2023,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 5,
+    "toplam_tutar": "3,657.33"
+  },
+  {
+    "yil": 2023,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 6,
+    "toplam_tutar": "6,187.64"
+  },
+  {
+    "yil": 2023,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 7,
+    "toplam_tutar": "6,762.10"
+  },
+  {
+    "yil": 2023,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 8,
+    "toplam_tutar": "7,249.98"
+  },
+  {
+    "yil": 2023,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 9,
+    "toplam_tutar": "2,775.97"
+  },
+  {
+    "yil": 2023,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 9,
+    "toplam_tutar": "3,961.44"
+  },
+  {
+    "yil": 2023,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 10,
+    "toplam_tutar": "5,654.98"
+  },
+  {
+    "yil": 2023,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 11,
+    "toplam_tutar": "7,190.79"
+  },
+  {
+    "yil": 2023,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 12,
+    "toplam_tutar": "6,988.60"
+  },
+  {
+    "yil": 2023,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 13,
+    "toplam_tutar": "4,395.28"
+  },
+  {
+    "yil": 2023,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 13,
+    "toplam_tutar": "490.79"
+  },
+  {
+    "yil": 2023,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 14,
+    "toplam_tutar": "3,814.29"
+  },
+  {
+    "yil": 2023,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 15,
+    "toplam_tutar": "3,538.13"
+  },
+  {
+    "yil": 2023,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 16,
+    "toplam_tutar": "5,629.28"
+  },
+  {
+    "yil": 2023,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 17,
+    "toplam_tutar": "6,107.52"
+  },
+  {
+    "yil": 2023,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 18,
+    "toplam_tutar": "4,105.42"
+  },
+  {
+    "yil": 2023,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 19,
+    "toplam_tutar": "6,284.36"
+  },
+  {
+    "yil": 2023,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 20,
+    "toplam_tutar": "12,290.71"
+  },
+  {
+    "yil": 2023,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 21,
+    "toplam_tutar": "7,137.26"
+  },
+  {
+    "yil": 2023,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 22,
+    "toplam_tutar": "2,444.66"
+  },
+  {
+    "yil": 2023,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 22,
+    "toplam_tutar": "194.03"
+  },
+  {
+    "yil": 2023,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 23,
+    "toplam_tutar": "4,379.70"
+  },
+  {
+    "yil": 2023,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 24,
+    "toplam_tutar": "4,735.81"
+  },
+  {
+    "yil": 2023,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 25,
+    "toplam_tutar": "8,159.00"
+  },
+  {
+    "yil": 2023,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 26,
+    "toplam_tutar": "5,807.89"
+  },
+  {
+    "yil": 2023,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 26,
+    "toplam_tutar": "1,532.40"
+  },
+  {
+    "yil": 2023,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 27,
+    "toplam_tutar": "7,161.68"
+  },
+  {
+    "yil": 2023,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 28,
+    "toplam_tutar": "13,398.65"
+  },
+  {
+    "yil": 2023,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 29,
+    "toplam_tutar": "10,534.66"
+  },
+  {
+    "yil": 2023,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 30,
+    "toplam_tutar": "8,930.20"
+  },
+  {
+    "yil": 2023,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 31,
+    "toplam_tutar": "1,784.66"
+  },
+  {
+    "yil": 2023,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 31,
+    "toplam_tutar": "5,237.79"
+  },
+  {
+    "yil": 2023,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 32,
+    "toplam_tutar": "7,965.63"
+  },
+  {
+    "yil": 2023,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 33,
+    "toplam_tutar": "6,529.32"
+  },
+  {
+    "yil": 2023,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 34,
+    "toplam_tutar": "5,715.46"
+  },
+  {
+    "yil": 2023,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 35,
+    "toplam_tutar": "2,175.69"
+  },
+  {
+    "yil": 2023,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 35,
+    "toplam_tutar": "1,705.82"
+  },
+  {
+    "yil": 2023,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 36,
+    "toplam_tutar": "8,671.04"
+  },
+  {
+    "yil": 2023,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 37,
+    "toplam_tutar": "8,013.57"
+  },
+  {
+    "yil": 2023,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 38,
+    "toplam_tutar": "6,996.89"
+  },
+  {
+    "yil": 2023,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 39,
+    "toplam_tutar": "8,040.92"
+  },
+  {
+    "yil": 2023,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 40,
+    "toplam_tutar": "8,446.19"
+  },
+  {
+    "yil": 2023,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 41,
+    "toplam_tutar": "7,989.23"
+  },
+  {
+    "yil": 2023,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 42,
+    "toplam_tutar": "7,601.08"
+  },
+  {
+    "yil": 2023,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 43,
+    "toplam_tutar": "4,674.84"
+  },
+  {
+    "yil": 2023,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 44,
+    "toplam_tutar": "2,358.86"
+  },
+  {
+    "yil": 2023,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 44,
+    "toplam_tutar": "5,656.67"
+  },
+  {
+    "yil": 2023,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 45,
+    "toplam_tutar": "9,549.54"
+  },
+  {
+    "yil": 2023,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 46,
+    "toplam_tutar": "6,997.97"
+  },
+  {
+    "yil": 2023,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 47,
+    "toplam_tutar": "9,051.50"
+  },
+  {
+    "yil": 2023,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 48,
+    "toplam_tutar": "4,460.63"
+  },
+  {
+    "yil": 2023,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 48,
+    "toplam_tutar": "2,323.49"
+  },
+  {
+    "yil": 2023,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 49,
+    "toplam_tutar": "8,795.89"
+  },
+  {
+    "yil": 2023,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 50,
+    "toplam_tutar": "6,303.10"
+  },
+  {
+    "yil": 2023,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 51,
+    "toplam_tutar": "7,096.69"
+  },
+  {
+    "yil": 2024,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 1,
+    "toplam_tutar": "3,759.54"
+  },
+  {
+    "yil": 2024,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 2,
+    "toplam_tutar": "5,349.27"
+  },
+  {
+    "yil": 2024,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 3,
+    "toplam_tutar": "8,565.26"
+  },
+  {
+    "yil": 2024,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 4,
+    "toplam_tutar": "5,638.56"
+  },
+  {
+    "yil": 2024,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 5,
+    "toplam_tutar": "2,242.31"
+  },
+  {
+    "yil": 2024,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 5,
+    "toplam_tutar": "1,868.60"
+  },
+  {
+    "yil": 2024,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 6,
+    "toplam_tutar": "8,524.76"
+  },
+  {
+    "yil": 2024,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 7,
+    "toplam_tutar": "7,096.34"
+  },
+  {
+    "yil": 2024,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 8,
+    "toplam_tutar": "6,065.34"
+  },
+  {
+    "yil": 2024,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 9,
+    "toplam_tutar": "2,721.56"
+  },
+  {
+    "yil": 2024,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 9,
+    "toplam_tutar": "1,801.75"
+  },
+  {
+    "yil": 2024,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 10,
+    "toplam_tutar": "6,167.96"
+  },
+  {
+    "yil": 2024,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 11,
+    "toplam_tutar": "7,000.82"
+  },
+  {
+    "yil": 2024,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 12,
+    "toplam_tutar": "6,772.32"
+  },
+  {
+    "yil": 2024,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 13,
+    "toplam_tutar": "5,606.54"
+  },
+  {
+    "yil": 2024,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 14,
+    "toplam_tutar": "6,047.44"
+  },
+  {
+    "yil": 2024,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 15,
+    "toplam_tutar": "5,471.92"
+  },
+  {
+    "yil": 2024,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 16,
+    "toplam_tutar": "13,052.51"
+  },
+  {
+    "yil": 2024,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 17,
+    "toplam_tutar": "6,728.87"
+  },
+  {
+    "yil": 2024,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 18,
+    "toplam_tutar": "2,508.38"
+  },
+  {
+    "yil": 2024,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 18,
+    "toplam_tutar": "7,344.75"
+  },
+  {
+    "yil": 2024,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 19,
+    "toplam_tutar": "4,779.23"
+  },
+  {
+    "yil": 2024,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 20,
+    "toplam_tutar": "8,861.47"
+  },
+  {
+    "yil": 2024,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 21,
+    "toplam_tutar": "8,375.52"
+  },
+  {
+    "yil": 2024,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 22,
+    "toplam_tutar": "4,304.46"
+  },
+  {
+    "yil": 2024,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 22,
+    "toplam_tutar": "1,618.40"
+  },
+  {
+    "yil": 2024,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 23,
+    "toplam_tutar": "5,184.09"
+  },
+  {
+    "yil": 2024,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 24,
+    "toplam_tutar": "7,505.73"
+  },
+  {
+    "yil": 2024,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 25,
+    "toplam_tutar": "7,566.49"
+  },
+  {
+    "yil": 2024,
+    "ay": 6,
+    "ay_adi": "June",
+    "hafta": 26,
+    "toplam_tutar": "7,674.30"
+  },
+  {
+    "yil": 2024,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 27,
+    "toplam_tutar": "7,801.80"
+  },
+  {
+    "yil": 2024,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 28,
+    "toplam_tutar": "6,903.22"
+  },
+  {
+    "yil": 2024,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 29,
+    "toplam_tutar": "6,503.21"
+  },
+  {
+    "yil": 2024,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 30,
+    "toplam_tutar": "5,419.03"
+  },
+  {
+    "yil": 2024,
+    "ay": 7,
+    "ay_adi": "July",
+    "hafta": 31,
+    "toplam_tutar": "3,092.07"
+  },
+  {
+    "yil": 2024,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 31,
+    "toplam_tutar": "3,193.82"
+  },
+  {
+    "yil": 2024,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 32,
+    "toplam_tutar": "6,063.80"
+  },
+  {
+    "yil": 2024,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 33,
+    "toplam_tutar": "6,380.62"
+  },
+  {
+    "yil": 2024,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 34,
+    "toplam_tutar": "7,784.85"
+  },
+  {
+    "yil": 2024,
+    "ay": 8,
+    "ay_adi": "August",
+    "hafta": 35,
+    "toplam_tutar": "5,577.31"
+  },
+  {
+    "yil": 2024,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 36,
+    "toplam_tutar": "5,097.63"
+  },
+  {
+    "yil": 2024,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 37,
+    "toplam_tutar": "5,909.02"
+  },
+  {
+    "yil": 2024,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 38,
+    "toplam_tutar": "5,741.25"
+  },
+  {
+    "yil": 2024,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 39,
+    "toplam_tutar": "5,994.87"
+  },
+  {
+    "yil": 2024,
+    "ay": 9,
+    "ay_adi": "September",
+    "hafta": 40,
+    "toplam_tutar": "1,312.90"
+  },
+  {
+    "yil": 2024,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 40,
+    "toplam_tutar": "6,257.28"
+  },
+  {
+    "yil": 2024,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 41,
+    "toplam_tutar": "6,727.56"
+  },
+  {
+    "yil": 2024,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 42,
+    "toplam_tutar": "7,512.25"
+  },
+  {
+    "yil": 2024,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 43,
+    "toplam_tutar": "6,598.79"
+  },
+  {
+    "yil": 2024,
+    "ay": 10,
+    "ay_adi": "October",
+    "hafta": 44,
+    "toplam_tutar": "6,487.95"
+  },
+  {
+    "yil": 2024,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 44,
+    "toplam_tutar": "2,198.65"
+  },
+  {
+    "yil": 2024,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 45,
+    "toplam_tutar": "9,581.18"
+  },
+  {
+    "yil": 2024,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 46,
+    "toplam_tutar": "6,208.66"
+  },
+  {
+    "yil": 2024,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 47,
+    "toplam_tutar": "12,621.58"
+  },
+  {
+    "yil": 2024,
+    "ay": 11,
+    "ay_adi": "November",
+    "hafta": 48,
+    "toplam_tutar": "6,659.24"
+  },
+  {
+    "yil": 2024,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 49,
+    "toplam_tutar": "11,855.64"
+  },
+  {
+    "yil": 2024,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 50,
+    "toplam_tutar": "5,342.21"
+  },
+  {
+    "yil": 2024,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 51,
+    "toplam_tutar": "8,327.31"
+  },
+  {
+    "yil": 2024,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 52,
+    "toplam_tutar": "3,741.47"
+  },
+  {
+    "yil": 2024,
+    "ay": 12,
+    "ay_adi": "December",
+    "hafta": 53,
+    "toplam_tutar": "1,708.26"
+  },
+  {
+    "yil": 2025,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 1,
+    "toplam_tutar": "4,139.14"
+  },
+  {
+    "yil": 2025,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 2,
+    "toplam_tutar": "7,343.07"
+  },
+  {
+    "yil": 2025,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 3,
+    "toplam_tutar": "10,749.39"
+  },
+  {
+    "yil": 2025,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 4,
+    "toplam_tutar": "8,283.24"
+  },
+  {
+    "yil": 2025,
+    "ay": 1,
+    "ay_adi": "January",
+    "hafta": 5,
+    "toplam_tutar": "8,387.80"
+  },
+  {
+    "yil": 2025,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 5,
+    "toplam_tutar": "378.14"
+  },
+  {
+    "yil": 2025,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 6,
+    "toplam_tutar": "8,234.59"
+  },
+  {
+    "yil": 2025,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 7,
+    "toplam_tutar": "7,673.25"
+  },
+  {
+    "yil": 2025,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 8,
+    "toplam_tutar": "9,286.71"
+  },
+  {
+    "yil": 2025,
+    "ay": 2,
+    "ay_adi": "February",
+    "hafta": 9,
+    "toplam_tutar": "5,677.38"
+  },
+  {
+    "yil": 2025,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 9,
+    "toplam_tutar": "1,049.89"
+  },
+  {
+    "yil": 2025,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 10,
+    "toplam_tutar": "9,682.09"
+  },
+  {
+    "yil": 2025,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 11,
+    "toplam_tutar": "7,644.66"
+  },
+  {
+    "yil": 2025,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 12,
+    "toplam_tutar": "10,912.07"
+  },
+  {
+    "yil": 2025,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 13,
+    "toplam_tutar": "11,474.58"
+  },
+  {
+    "yil": 2025,
+    "ay": 3,
+    "ay_adi": "March",
+    "hafta": 14,
+    "toplam_tutar": "933.91"
+  },
+  {
+    "yil": 2025,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 14,
+    "toplam_tutar": "8,115.54"
+  },
+  {
+    "yil": 2025,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 15,
+    "toplam_tutar": "7,351.83"
+  },
+  {
+    "yil": 2025,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 16,
+    "toplam_tutar": "8,597.57"
+  },
+  {
+    "yil": 2025,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 17,
+    "toplam_tutar": "6,498.66"
+  },
+  {
+    "yil": 2025,
+    "ay": 4,
+    "ay_adi": "April",
+    "hafta": 18,
+    "toplam_tutar": "5,454.69"
+  },
+  {
+    "yil": 2025,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 18,
+    "toplam_tutar": "8,622.71"
+  },
+  {
+    "yil": 2025,
+    "ay": 5,
+    "ay_adi": "May",
+    "hafta": 19,
+    "toplam_tutar": "791.80"
+  }
+]
