@@ -206,126 +206,155 @@ const SalesAnalysis = () => {
   );
   
   // YearlyView bileşeni
-  const YearlyView = () => (
-    <div>
-      <h2 className="text-xl font-bold mb-4 text-center">Yıllık Toplam Satışlar</h2>
-      <div className="h-96">
-        <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={yearlySummary}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="yil" />
-            <YAxis />
-            <Tooltip formatter={(value: unknown) => formatCurrency(value)} />
-            <Legend />
-            <Bar dataKey="toplam" fill="#8884d8" name="Toplam Satış" />
-          </BarChart>
-        </ResponsiveContainer>
-      </div>
-      
-      <div className="mt-8">
-        <h2 className="text-xl font-bold mb-4 text-center">Yıllık Satış İstatistikleri</h2>
-        <div className="overflow-x-auto">
-          <table className="min-w-full bg-white border">
-            <thead>
-              <tr>
-                <th className="border px-4 py-2">Yıl</th>
-                <th className="border px-4 py-2">Toplam Satış</th>
-                <th className="border px-4 py-2">Artış Oranı</th>
-              </tr>
-            </thead>
-            <tbody>
-              {yearlySummary.map((item, index) => {
-                const growthRate = yearlyGrowthRate.find(yr => yr.yil === item.yil);
-                const artisOrani = growthRate?.artisOrani || '0';
-                const isPositive = parseFloat(artisOrani) >= 0;
-                
-                return (
-                  <tr key={item.yil}>
-                    <td className="border px-4 py-2">{item.yil}</td>
-                    <td className="border px-4 py-2 text-right">{formatCurrency(item.toplam)}</td>
-                    <td className="border px-4 py-2 text-right">
-                      {index > 0 ? (
-                        <span className={`${isPositive ? 'text-green-600' : 'text-red-600'}`}>
-                          {isPositive ? '+' : ''}{artisOrani}%
-                        </span>
-                      ) : '-'}
-                    </td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
-      </div>
-      
-      {/* Büyüme Oranı Grafiği */}
-      <div className="mt-8">
-        <h2 className="text-xl font-bold mb-4 text-center">Yıllık Büyüme Oranları</h2>
-        <div className="h-64">
+  const YearlyView = () => {
+    // Yıllık verilerin maksimum değerini bul
+    const maxYearlyValue = Math.max(...yearlySummary.map(item => parseFloat(item.toplam)));
+    const yAxisDomain = [0, Math.ceil(maxYearlyValue * 1.1)]; // %10 ekstra alan
+
+    return (
+      <div>
+        <h2 className="text-xl font-bold mb-4 text-center">Yıllık Toplam Satışlar</h2>
+        <div className="h-96">
           <ResponsiveContainer width="100%" height="100%">
-            <BarChart data={yearlyGrowthRate}>
+            <BarChart data={yearlySummary}>
               <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="yil" />
-              <YAxis />
-              <Tooltip formatter={(value) => `${value}%`} />
+              <XAxis 
+                dataKey="yil" 
+                label={{ value: 'Yıl', position: 'insideBottom', offset: -5 }}
+              />
+              <YAxis 
+                domain={yAxisDomain}
+                tickFormatter={(value) => formatCurrency(value)}
+                label={{ value: 'Toplam Satış', angle: -90, position: 'insideLeft', offset: 10 }}
+              />
+              <Tooltip formatter={(value: unknown) => formatCurrency(value)} />
               <Legend />
-              <Bar dataKey="artisOrani" fill="#ff7300" name="Artış Oranı (%)" />
+              <Bar dataKey="toplam" fill="#8884d8" name="Toplam Satış" />
             </BarChart>
           </ResponsiveContainer>
         </div>
-      </div>
-    </div>
-  );
-  
-  // MonthlyView bileşeni
-  const MonthlyView = () => (
-    <div>
-      <YearSelector />
-      <h2 className="text-xl font-bold mb-4 text-center">{selectedYear} Yılı Aylık Satışlar</h2>
-      <div className="h-96">
-        <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={filteredMonthlyData}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="ay_adi" />
-            <YAxis />
-            <Tooltip formatter={(value: unknown) => formatCurrency(value)} />
-            <Legend />
-            <Bar dataKey="toplam" fill="#82ca9d" name="Toplam Satış" />
-          </BarChart>
-        </ResponsiveContainer>
-      </div>
-      
-      <div className="mt-8">
-        <h2 className="text-xl font-bold mb-4 text-center">{selectedYear} Yılı Aylık Satış İstatistikleri</h2>
-        <div className="overflow-x-auto">
-          <table className="min-w-full bg-white border">
-            <thead>
-              <tr>
-                <th className="border px-4 py-2">Ay</th>
-                <th className="border px-4 py-2">Toplam Satış</th>
-              </tr>
-            </thead>
-            <tbody>
-              {filteredMonthlyData.map(item => (
-                <tr key={`${item.yil}-${item.ay}`}>
-                  <td className="border px-4 py-2">{item.ay_adi}</td>
-                  <td className="border px-4 py-2 text-right">{formatCurrency(item.toplam)}</td>
+        
+        <div className="mt-8">
+          <h2 className="text-xl font-bold mb-4 text-center">Yıllık Satış İstatistikleri</h2>
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white border">
+              <thead>
+                <tr>
+                  <th className="border px-4 py-2">Yıl</th>
+                  <th className="border px-4 py-2">Toplam Satış</th>
+                  <th className="border px-4 py-2">Artış Oranı</th>
                 </tr>
-              ))}
-              <tr className="bg-gray-100 font-bold">
-                <td className="border px-4 py-2">Toplam</td>
-                <td className="border px-4 py-2 text-right">
-                  {formatCurrency(filteredMonthlyData.reduce((sum, item) => 
-                    sum + parseFloat(item.toplam), 0
-                  ))}
-                </td>
-              </tr>
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {yearlySummary.map((item, index) => {
+                  const growthRate = yearlyGrowthRate.find(yr => yr.yil === item.yil);
+                  const artisOrani = growthRate?.artisOrani || '0';
+                  const isPositive = parseFloat(artisOrani) >= 0;
+                  
+                  return (
+                    <tr key={item.yil}>
+                      <td className="border px-4 py-2">{item.yil}</td>
+                      <td className="border px-4 py-2 text-right">{formatCurrency(item.toplam)}</td>
+                      <td className="border px-4 py-2 text-right">
+                        {index > 0 ? (
+                          <span className={`${isPositive ? 'text-green-600' : 'text-red-600'}`}>
+                            {isPositive ? '+' : ''}{artisOrani}%
+                          </span>
+                        ) : '-'}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        {/* Büyüme Oranı Grafiği */}
+        <div className="mt-8">
+          <h2 className="text-xl font-bold mb-4 text-center">Yıllık Büyüme Oranları</h2>
+          <div className="h-64">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart data={yearlyGrowthRate}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="yil" />
+                <YAxis />
+                <Tooltip formatter={(value) => `${value}%`} />
+                <Legend />
+                <Bar dataKey="artisOrani" fill="#ff7300" name="Artış Oranı (%)" />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  };
+  
+  // MonthlyView bileşeni
+  const MonthlyView = () => {
+    // Aylık verilerin maksimum değerini bul
+    const maxMonthlyValue = Math.max(...filteredMonthlyData.map(item => parseFloat(item.toplam)));
+    const yAxisDomain = [0, Math.ceil(maxMonthlyValue * 1.1)]; // %10 ekstra alan
+
+    return (
+      <div>
+        <YearSelector />
+        <h2 className="text-xl font-bold mb-4 text-center">{selectedYear} Yılı Aylık Satışlar</h2>
+        <div className="h-96">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={filteredMonthlyData}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis 
+                dataKey="ay_adi" 
+                label={{ value: 'Ay', position: 'insideBottom', offset: -5 }}
+                angle={-45}
+                textAnchor="end"
+                height={60}
+              />
+              <YAxis 
+                domain={yAxisDomain}
+                tickFormatter={(value) => formatCurrency(value)}
+                label={{ value: 'Toplam Satış', angle: -90, position: 'insideLeft', offset: 10 }}
+              />
+              <Tooltip formatter={(value: unknown) => formatCurrency(value)} />
+              <Legend />
+              <Bar dataKey="toplam" fill="#82ca9d" name="Toplam Satış" />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+        
+        <div className="mt-8">
+          <h2 className="text-xl font-bold mb-4 text-center">{selectedYear} Yılı Aylık Satış İstatistikleri</h2>
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white border">
+              <thead>
+                <tr>
+                  <th className="border px-4 py-2">Ay</th>
+                  <th className="border px-4 py-2">Toplam Satış</th>
+                </tr>
+              </thead>
+              <tbody>
+                {filteredMonthlyData.map(item => (
+                  <tr key={`${item.yil}-${item.ay}`}>
+                    <td className="border px-4 py-2">{item.ay_adi}</td>
+                    <td className="border px-4 py-2 text-right">{formatCurrency(item.toplam)}</td>
+                  </tr>
+                ))}
+                <tr className="bg-gray-100 font-bold">
+                  <td className="border px-4 py-2">Toplam</td>
+                  <td className="border px-4 py-2 text-right">
+                    {formatCurrency(filteredMonthlyData.reduce((sum, item) => 
+                      sum + parseFloat(item.toplam), 0
+                    ))}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    );
+  };
   
   const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
     if (active && payload && payload.length) {
@@ -356,6 +385,10 @@ const SalesAnalysis = () => {
 
     console.log('Weekly View Data:', weeklyData);
 
+    // Haftalık verilerin maksimum değerini bul
+    const maxWeeklyValue = Math.max(...weeklyData.map(item => item.toplam_tutar));
+    const yAxisDomain = [0, Math.ceil(maxWeeklyValue * 1.1)]; // %10 ekstra alan
+
     return (
       <div>
         <YearSelector />
@@ -366,9 +399,14 @@ const SalesAnalysis = () => {
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis 
                 dataKey="hafta" 
-                label={{ value: 'Hafta', position: 'insideBottomRight', offset: 0 }}
+                label={{ value: 'Hafta', position: 'insideBottom', offset: -5 }}
+                tickFormatter={(value) => `Hafta ${value}`}
               />
-              <YAxis />
+              <YAxis 
+                domain={yAxisDomain}
+                tickFormatter={(value) => formatCurrency(value)}
+                label={{ value: 'Toplam Satış', angle: -90, position: 'insideLeft', offset: 10 }}
+              />
               <Tooltip 
                 formatter={(value: any) => formatCurrency(value)}
                 labelFormatter={(label) => `${selectedYear} - Hafta ${label}`}
