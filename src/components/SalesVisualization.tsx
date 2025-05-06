@@ -51,13 +51,26 @@ const SalesAnalysis = () => {
   useEffect(() => {
     const loadData = async () => {
       try {
+        console.log('Fetching data from /satis_verileri.json');
         const response = await fetch('/satis_verileri.json');
+        
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
         const parsedData: SalesData[] = await response.json();
+        console.log('Loaded data:', parsedData);
+        
+        if (!Array.isArray(parsedData) || parsedData.length === 0) {
+          throw new Error('Loaded data is not a valid array or is empty');
+        }
         
         setData(parsedData);
         
         // Mevcut yılları belirle
         const uniqueYears = Array.from(new Set(parsedData.map(item => item.yil))).sort();
+        console.log('Unique years:', uniqueYears);
+        
         setYears(uniqueYears);
         setSelectedYear(uniqueYears[uniqueYears.length - 1]); // En son yılı seç
         
@@ -113,6 +126,10 @@ const SalesAnalysis = () => {
       // Aynı ayda ise haftaya göre sırala
       return a.hafta - b.hafta;
     });
+
+  console.log('Selected Year:', selectedYear);
+  console.log('All Data:', data);
+  console.log('Filtered Weekly Data:', filteredWeeklyData);
   
   // Yıllık satışlardaki artış oranı
   const yearlyGrowthRate: YearlyGrowth[] = [];
@@ -324,107 +341,117 @@ const SalesAnalysis = () => {
   };
   
   // WeeklyView bileşeni
-  const WeeklyView = () => (
-    <div>
-      <YearSelector />
-      <h2 className="text-xl font-bold mb-4 text-center">{selectedYear} Yılı Haftalık Satışlar</h2>
-      <div className="h-96">
-        <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={filteredWeeklyData}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis 
-              dataKey="hafta" 
-              label={{ value: 'Hafta', position: 'insideBottomRight', offset: 0 }}
-            />
-            <YAxis />
-            <Tooltip content={CustomTooltip as any} />
-            <Legend />
-            <Bar dataKey="toplam_tutar" fill="#8884d8" name="Haftalık Satış">
-              {filteredWeeklyData.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={`hsl(${entry.ay * 30}, 70%, 60%)`} />
-              ))}
-            </Bar>
-          </BarChart>
-        </ResponsiveContainer>
-      </div>
-      
-      {/* Haftalık verilerin aylık grupları */}
-      <div className="mt-8">
-        <h2 className="text-xl font-bold mb-4 text-center">{selectedYear} Yılı - Aylara Göre Haftalık Satışlar</h2>
-        {filteredMonthlyData.length > 0 ? (
-          filteredMonthlyData.map(month => {
-            const weeklyDataForMonth = data.filter(item => 
-              item.yil === selectedYear && 
-              item.ay === month.ay
-            );
-            
-            return weeklyDataForMonth.length > 0 ? (
-              <div key={`${month.yil}-${month.ay}`} className="mb-8 border-t pt-4">
-                <h3 className="text-lg font-semibold mb-2">{month.ay_adi} ({month.ay}. Ay)</h3>
-                <div className="h-64 mb-4">
-                  <ResponsiveContainer width="100%" height="100%">
-                    <BarChart data={weeklyDataForMonth}>
-                      <CartesianGrid strokeDasharray="3 3" />
-                      <XAxis 
-                        dataKey="hafta" 
-                        label={{ value: 'Hafta No', position: 'insideBottom', offset: -5 }}
-                      />
-                      <YAxis 
-                        label={{ value: 'Satış Tutarı', angle: -90, position: 'insideLeft' }}
-                      />
-                      <Tooltip 
-                        formatter={(value: any) => {
-                          if (typeof value === 'string') {
-                            return formatCurrency(value);
-                          }
-                          return formatCurrency(value?.toString() || '0');
-                        }}
-                        labelFormatter={(label) => `${selectedYear} - Hafta ${label}`}
-                      />
-                      <Bar dataKey="toplam_tutar" fill="#82ca9d" name="Haftalık Satış" />
-                    </BarChart>
-                  </ResponsiveContainer>
-                </div>
-                
-                <div className="overflow-x-auto">
-                  <table className="min-w-full bg-white border">
-                    <thead>
-                      <tr>
-                        <th className="border px-4 py-2">Hafta</th>
-                        <th className="border px-4 py-2">Satış Tutarı</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {weeklyDataForMonth.map(week => (
-                        <tr key={`${week.yil}-${week.ay}-${week.hafta}`}>
-                          <td className="border px-4 py-2 text-center">Hafta {week.hafta}</td>
+  const WeeklyView = () => {
+    // Seçilen yıla göre haftalık veriyi yeniden hesapla
+    const weeklyData = data
+      .filter(item => item.yil === selectedYear)
+      .sort((a, b) => {
+        if (a.ay !== b.ay) return a.ay - b.ay;
+        return a.hafta - b.hafta;
+      })
+      .map(item => ({
+        ...item,
+        toplam_tutar: parseFloat(item.toplam_tutar.replace(/,/g, ''))
+      }));
+
+    console.log('Weekly View Data:', weeklyData);
+
+    return (
+      <div>
+        <YearSelector />
+        <h2 className="text-xl font-bold mb-4 text-center">{selectedYear} Yılı Haftalık Satışlar</h2>
+        <div className="h-96">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={weeklyData}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis 
+                dataKey="hafta" 
+                label={{ value: 'Hafta', position: 'insideBottomRight', offset: 0 }}
+              />
+              <YAxis />
+              <Tooltip 
+                formatter={(value: any) => formatCurrency(value)}
+                labelFormatter={(label) => `${selectedYear} - Hafta ${label}`}
+              />
+              <Legend />
+              <Bar dataKey="toplam_tutar" fill="#8884d8" name="Haftalık Satış">
+                {weeklyData.map((entry, index) => (
+                  <Cell key={`cell-${index}`} fill={`hsl(${entry.ay * 30}, 70%, 60%)`} />
+                ))}
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+        
+        {/* Haftalık verilerin aylık grupları */}
+        <div className="mt-8">
+          <h2 className="text-xl font-bold mb-4 text-center">{selectedYear} Yılı - Aylara Göre Haftalık Satışlar</h2>
+          {weeklyData.length > 0 ? (
+            Array.from(new Set(weeklyData.map(item => item.ay))).map(month => {
+              const weeklyDataForMonth = weeklyData.filter(item => item.ay === month);
+              const monthName = weeklyDataForMonth[0]?.ay_adi;
+              
+              return (
+                <div key={`${selectedYear}-${month}`} className="mb-8 border-t pt-4">
+                  <h3 className="text-lg font-semibold mb-2">{monthName} ({month}. Ay)</h3>
+                  <div className="h-64 mb-4">
+                    <ResponsiveContainer width="100%" height="100%">
+                      <BarChart data={weeklyDataForMonth}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis 
+                          dataKey="hafta" 
+                          label={{ value: 'Hafta No', position: 'insideBottom', offset: -5 }}
+                        />
+                        <YAxis 
+                          label={{ value: 'Satış Tutarı', angle: -90, position: 'insideLeft' }}
+                        />
+                        <Tooltip 
+                          formatter={(value: any) => formatCurrency(value)}
+                          labelFormatter={(label) => `${selectedYear} - Hafta ${label}`}
+                        />
+                        <Bar dataKey="toplam_tutar" fill="#82ca9d" name="Haftalık Satış" />
+                      </BarChart>
+                    </ResponsiveContainer>
+                  </div>
+                  
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full bg-white border">
+                      <thead>
+                        <tr>
+                          <th className="border px-4 py-2">Hafta</th>
+                          <th className="border px-4 py-2">Satış Tutarı</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {weeklyDataForMonth.map(week => (
+                          <tr key={`${week.yil}-${week.ay}-${week.hafta}`}>
+                            <td className="border px-4 py-2 text-center">Hafta {week.hafta}</td>
+                            <td className="border px-4 py-2 text-right">{formatCurrency(week.toplam_tutar)}</td>
+                          </tr>
+                        ))}
+                        <tr className="bg-gray-100 font-bold">
+                          <td className="border px-4 py-2">Toplam</td>
                           <td className="border px-4 py-2 text-right">
-                            {formatCurrency(parseFloat(week.toplam_tutar.replace(/,/g, '')))}
+                            {formatCurrency(weeklyDataForMonth.reduce((sum, item) => 
+                              sum + item.toplam_tutar, 0
+                            ))}
                           </td>
                         </tr>
-                      ))}
-                      <tr className="bg-gray-100 font-bold">
-                        <td className="border px-4 py-2">Toplam</td>
-                        <td className="border px-4 py-2 text-right">
-                          {formatCurrency(weeklyDataForMonth.reduce((sum, item) => 
-                            sum + parseFloat(item.toplam_tutar.replace(/,/g, '')), 0
-                          ).toString())}
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
-              </div>
-            ) : null;
-          })
-        ) : (
-          <div className="text-center p-4 bg-gray-100 rounded">
-            <p>Seçilen yıl için veri bulunamadı.</p>
-          </div>
-        )}
+              );
+            })
+          ) : (
+            <div className="text-center p-4 bg-gray-100 rounded">
+              <p>Seçilen yıl için veri bulunamadı.</p>
+            </div>
+          )}
+        </div>
       </div>
-    </div>
-  );
+    );
+  };
   
   return (
     <div className="p-4">
